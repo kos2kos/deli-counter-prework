@@ -26,7 +26,7 @@ def line(line)
     i = 0 
     while i < line.size
       if i != line.size - 1
-        temp = temp + " #{i + 1}. #{line[i]},"
+        temp = temp + " #{i + 1}. #{line[i]}"
       elsif i == line.size - 1
         temp = temp + " #{i + 1}. #{line[i]}"
       end
