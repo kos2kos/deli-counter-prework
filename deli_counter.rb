@@ -30,6 +30,7 @@ def currentLine(line)
         temp = temp + ` #{i + 1}. #{line[i]}`
       end
       i+=1
-    return temp
   end
+end
+      return temp
 end  
