@@ -24,9 +24,9 @@ def currentLine(line)
   elsif line.length > 0 
     i = 0 
     while i < line.size
-      if i != line.length - 1
+      if i != line.size - 1
         temp = temp + ` #{i + 1}. #{line[i]},`
-      elsif (i === line.length - 1){
+      elsif i == line.size - 1
         temp = temp + ` #{i + 1}. #{line[i]}`
       end
       i+=1
