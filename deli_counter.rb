@@ -21,6 +21,7 @@ def currentLine(line)
    temp = "The line is currently:"
   if line.length == 0
     return "The line is currently empty."
+  end
   elsif line.length > 0 
     i = 0 
     while i < line.size
