@@ -1,5 +1,5 @@
 # Write your code here.
-katzDeliLine = []
+katz_deli = []
 
 def take_a_number(line, name)
   line = line.push(name)
@@ -17,7 +17,7 @@ def now_serving(line)
 end
 
 
-def currentLine(line)
+def current_line(line)
    temp = "The line is currently:"
   if line.length == 0
     return "The line is currently empty."
