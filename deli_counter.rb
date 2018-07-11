@@ -31,6 +31,5 @@ def currentLine(line)
       end
       i+=1
   end
-end
       return temp
 end  
