@@ -19,7 +19,7 @@ end
 
 def current_line(line)
    temp = "The line is currently:"
-  if line.length == 0
+  if line.size == 0
     return "The line is currently empty."
   else  
     i = 0 
