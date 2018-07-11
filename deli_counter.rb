@@ -7,9 +7,9 @@ def take_a_number(line, name)
 
 
 def now_serving(line)
-  if line.length == 0
+  if line.size == 0
     return"There is nobody waiting to be served!"
-  elsif line.length > 0
+  elsif line.size > 0
     var temp = line[0]
     line.shift
     return `Currently serving #{temp}.`
