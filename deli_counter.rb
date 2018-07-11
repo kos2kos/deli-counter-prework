@@ -6,7 +6,7 @@ def take_a_number(line, name)
   return  `Welcome, #{name}. You are number #{line} in line.`
 
 
-def nowServing(line)
+def now_serving(line)
   if line.length == 0
     return"There is nobody waiting to be served!"
   elsif line.length > 0
